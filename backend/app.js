@@ -3,7 +3,8 @@ require('dotenv').config();
 var express = require("express");
 var mongoClient = require("mongodb").MongoClient;
 var cors = require("cors");
-var port = process.env.PORT || 4400;
+console.log(process.env.DB_NAME)
+var port = process.env.PORT;
 var dbname = process.env.DB_NAME;
 
 var conStr = process.env.DATABASE_URL;

@@ -3,7 +3,7 @@ require('dotenv').config();
 var express = require("express");
 var mongoClient = require("mongodb").MongoClient;
 var cors = require("cors");
-console.log(process.env.DB_NAME)
+//console.log(process.env.DB_NAME)
 var port = process.env.PORT;
 var dbname = process.env.DB_NAME;
 
